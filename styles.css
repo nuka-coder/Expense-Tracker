@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+td {
+  color: white;
+}
+
+/*Heading Styling*/
+.heading, .subheading {
+  font-family: Arial;
+}
+.deleteHeading {
+  
+}
+.tableHeadings {
+  border: 1px solid black;
+}
+
+/*Styling for input div containers*/
+.inputGroups{
+  padding: 20px 10px;
+}
+
+/*Styling for Form*/
+.form {
+  padding: 0 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*Styling for Table*/
+.tbody {
+  display: flex;
+  justify-content: center;
+}
+
+/*Button Styling*/
+.buttonGroup {
+  margin: 10px 0;
+}
+.submitBtn, .resetBtn {
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  font-family: Oswald;
+  letter-spacing: 2px;
+  padding: 5px;
+}
+.resetBtn {
+  background-color: grey;
+}
+
+
+/*Label Styling*/
+.labels {
+  font-size: 1.2rem;
+  font-family: Oswald;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/*Table Styling*/

@@ -8,13 +8,21 @@ form.addEventListener("submit", submitPushed);
 function submitPushed(event) {
   //When name input value is submitted create new td node with Name value and append it to
 
+//declare new Row to hold 3 td inputs
+
+
   //For Name Input
   //declare variable for td cellName for all Name entries
-  var nameNode = document.getElementById("cellName");
+  var nameNode = document.createElement("TD");
   //declare variable for Name input
   var nameValue = document.getElementById("name");
-  //set innerHTML of nameNode to input balue
-  nameNode.innerHTML+= nameValue.value + "<br>";
+  //set innerHTML of nameNode to input
+  nameNode.innerHTML= nameValue.value;
+  //append nameNode element to tableRow
+  var row1 = document.getElementById("tableRow").appendChild(nameNode);
+//set class attribute
+nameNode.setAttribute("class", "nameAtt");
+
   //clear input text box
   nameValue.value="";
 
@@ -58,3 +66,5 @@ document.querySelector(".deleteHeading").style.border="1px solid black";
 
   event.preventDefault();
 }
+
+//declaring

@@ -9,13 +9,15 @@ td {
   color: white;
 }
 
+
+
+
+
 /*Heading Styling*/
 .heading, .subheading {
   font-family: Arial;
 }
-.deleteHeading {
-  
-}
+
 .tableHeadings {
   border: 1px solid black;
 }
@@ -65,4 +67,9 @@ td {
   letter-spacing: 2px;
 }
 
-/*Table Styling*/
+/* Set Attributes */
+
+/*the class for all the name inputs in row*/
+.nameAtt {
+  color: lime;
+}

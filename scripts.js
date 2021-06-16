@@ -49,7 +49,7 @@ function submitPushed(event) {
   //declare variable for the amount input
   var amountInput = document.getElementById("amount");
   //assign amount td element amount input value
-  amountTd.innerHTML= amountInput.value;
+  amountTd.innerHTML= "$" + amountInput.value;
   //append td to newRow
   newRow.appendChild(amountTd);
 

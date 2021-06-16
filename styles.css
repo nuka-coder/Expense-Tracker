@@ -68,8 +68,12 @@ td {
 }
 
 /* Set Attributes */
+.rowData {
+  background-color: grey;
+  border-collapse: collapse;
+}
 
-/*the class for all the name inputs in row*/
-.nameAtt {
-  color: lime;
+.btnDel {
+  border: 1px solid black;
+  background-color: white;
 }

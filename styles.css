@@ -21,6 +21,9 @@ td {
 .tableHeadings {
   border: 1px solid black;
 }
+.deleteHeading {
+  width: 80px;
+}
 
 /*Styling for input div containers*/
 .inputGroups{

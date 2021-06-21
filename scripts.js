@@ -70,12 +70,17 @@ document.querySelector(".deleteHeading").style.border="1px solid black";
 //Goal: delete row content onclick of deleteBtn...
 
 //addEventListener to delete button
-deleteBtn.addEventListener("click", deleteRow);
-//declare function for deleteRow to delete a row
-function deleteRow() {
-  document.getElementById("table").deleteRow(1);
-}
-console.log(tableBody);
+deleteBtn.addEventListener("click", function() {
+  newRow.style.display="none";
+})
+
+
+
+//
+// //declare function for deleteRow to delete a row
+// function deleteRow() {
+//   document.getElementById("table").deleteRow(1);
+// }
 
 //prevent default refresh of page on submit
   event.preventDefault();
